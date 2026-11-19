@@ -32,4 +32,4 @@ A language-learning app featuring courses, lessons, vocabulary, flashcards, quiz
 
 These projects demonstrate practical mobile application development skills using Flutter and Dart as part of the CodeAlpha internship.
 
-> Note: The individual project repositories above contain the project source code and screenshots. This combined repository is the internship submission index; project folders can be added here as required by the submission instructions.
+> The complete Flutter source code, assets, tests, and screenshots for all three projects are included in their respective folders in this repository. Individual project repositories are also linked above.
