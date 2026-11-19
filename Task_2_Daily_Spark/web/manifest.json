@@ -1,0 +1,35 @@
+{
+    "name": "Daily Spark",
+    "short_name": "Daily Spark",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F7F4EC",
+    "theme_color": "#173F35",
+    "description": "A mindful space for discovering, saving, and creating inspiring quotes.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

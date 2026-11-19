@@ -1,17 +1,138 @@
-# LinguaLearn — Language Learning App
+# 🌐 LinguaLearn – Language Learning App
 
-A Flutter language-learning application with lessons, vocabulary practice, flashcards, quizzes, and progress tracking.
+LinguaLearn is a Flutter-based language learning mobile application that helps users learn new languages through interactive lessons, vocabulary practice, flashcards, quizzes, and progress tracking.
 
-## Features
-- Six supported languages: English, Spanish, French, German, Japanese, and Arabic
-- Structured courses and lessons
-- Interactive vocabulary flashcards
-- Text-to-speech pronunciation
-- Vocabulary library and quizzes
-- Progress tracking and dark mode
-- Local persistence and online translation support
+The application supports six languages and provides a personalized learning experience with local data persistence.
 
-## Original source repository
-[LinguaLearn on GitHub](https://github.com/moaazk714/lingualearn_language_learning_app)
+## ✨ Features
 
-The complete source code and screenshots are maintained in the original repository. This folder is the organized submission entry; it is not yet a copy of the Flutter source tree.
+- **Multiple Languages:** Learn English, Spanish, French, German, Japanese, and Arabic.
+- **Interactive Lessons:** Explore structured courses and learning units.
+- **Flashcards:** Practice vocabulary with interactive 3D flip animations.
+- **Audio Pronunciation:** Listen to words using Text-to-Speech (TTS).
+- **Vocabulary Library:** Search words, explore categories, and save favorites.
+- **Quizzes:** Test your knowledge through multiple-choice questions.
+- **Quiz Results:** View scores, accuracy, and answer explanations.
+- **Progress Tracking:** Monitor learned words, completed lessons, study time, and learning streaks.
+- **Personalized Settings:** Manage your learning goals, language preferences, and profile.
+- **Dark Mode:** Switch between light and dark themes.
+- **Local Data Storage:** Preserve learning progress and preferences using SharedPreferences.
+
+## 📸 Application Screenshots
+
+### Main Dashboard
+![LinguaLearn main dashboard](screenshots/Main%20dashboard.jpeg)
+
+### Language Selection
+![LinguaLearn language selection screen](screenshots/Select%20language%20screen.jpeg)
+
+### Course Structure
+![LinguaLearn course structure screen](screenshots/Course%20structure%20screen.jpeg)
+
+### Vocabulary Library
+![LinguaLearn vocabulary library screen](screenshots/Vocabulary%20library%20screen.jpeg)
+
+### Progress and Statistics
+![LinguaLearn statistics screen](screenshots/Statistics%20screen.jpeg)
+
+### Profile and Settings
+![LinguaLearn profile and settings screen](screenshots/Profile%20setting%20screen.jpeg)
+
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Provider (State Management)
+- SharedPreferences (Local Storage)
+- Material Design 3
+- Google Fonts
+- Flutter TTS (Text-to-Speech)
+- HTTP (API Requests)
+- Flutter Animate
+- Percent Indicator
+
+## 📱 Application Screens
+
+- Splash Screen
+- Onboarding
+- Language Selection
+- Home Dashboard
+- Learn
+- Lesson Details
+- Interactive Flashcards
+- Quiz
+- Quiz Results
+- Vocabulary Library
+- Progress Tracking
+- Profile and Settings
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Dart SDK
+- Android Studio or Visual Studio Code
+- Android Emulator or Physical Android Device
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/moaazk714/lingualearn_language_learning_app.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd lingualearn_language_learning_app
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the application:
+
+```bash
+flutter run
+```
+
+## 🧪 Testing
+
+Run static analysis:
+
+```bash
+flutter analyze
+```
+
+Run automated tests:
+
+```bash
+flutter test
+```
+
+## 🌍 Translation Service
+
+LinguaLearn integrates the MyMemory Translation API through an HTTP-based translation service. An internet connection is required for online translation functionality.
+
+Core learning features and locally saved progress use local storage.
+
+## 🎓 Internship Project
+
+Developed as **Project 4** for the CodeAlpha Flutter Development Internship.
+
+This project demonstrates practical skills in Flutter development, Provider state management, API integration, local data persistence, and interactive mobile application development.
+
+## 👨‍💻 Developer
+
+**Muhammad Moaaz**
+
+GitHub: [@moaazk714](https://github.com/moaazk714)
+
+---
+
+*LinguaLearn – Learn a language, one step at a time.*
